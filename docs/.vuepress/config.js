@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/onepress/',
   title: 'onepress 小站',
   description: 'just playing around',
   searchMaxSuggestions: 10, // 搜索设置
