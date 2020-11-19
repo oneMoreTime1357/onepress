@@ -1,6 +1,6 @@
 module.exports = {
   base: '/onepress/',
-  title: 'onepress 小站',
+  title: 'OnePress 小站',
   description: 'just playing around',
   searchMaxSuggestions: 10, // 搜索设置
   themeConfig: {
@@ -8,6 +8,7 @@ module.exports = {
     nav: [
       // { text: 'Home', link: '/' },
       { text: 'Nest Start', link: '/nest/' },
+      { text: '关于', link: '/about/' },
       { text: 'Github', link: 'https://github.com/oneMoreTime1357', target:'_blank' },
     ],
     sidebar: { // 侧边栏设置
@@ -25,6 +26,9 @@ module.exports = {
       '/nest/': [
         '',
         'start'
+      ],
+      '/about/': [
+        ''
       ]
       // '/': [
       //   '',        /* / */

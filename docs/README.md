@@ -3,7 +3,7 @@ home: true
 # heroImage: /hero.png
 heroText: OnePress 小站
 tagline: onepress start
-actionText: 开始查看 →
+actionText: 开始查看 🚀 →
 actionLink: /nest/
 features:
 - title: 经验分享
