@@ -1,3 +1,4 @@
-## nest 项目开始
+# Nest Start
 
-233333 readme page
+开始Nest项目，在这里记录学习Nest的全过程，可实操。
+

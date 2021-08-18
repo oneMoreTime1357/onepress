@@ -12,7 +12,6 @@ module.exports = {
       { text: 'Github', link: 'https://github.com/oneMoreTime1357', target:'_blank' },
     ],
     sidebar: { // 侧边栏设置
-      
       // {
       //   title: 'Nest Start', // 分组1
       //   path: '/nest/',
@@ -25,7 +24,8 @@ module.exports = {
       // }
       '/nest/': [
         '',
-        'start'
+        'start',
+        'log'
       ],
       '/about/': [
         ''

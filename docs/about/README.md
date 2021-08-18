@@ -1,10 +1,10 @@
 ---
-title: 关于我们
+title: 关于OnePress小站
 ---
 
-# 关于我们
+# OnePress小站
 
-人生无限有限公司
-
+在这里将学习到的知识沉淀输出，形成体系。
 ## 联系方式
-github 呼叫
+
+blog: [https://onemoretime1357.github.io/](https://onemoretime1357.github.io/)
