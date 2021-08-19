@@ -40,7 +40,7 @@ cd my-nest-project
 
 ## Module, Service和Controller
 
-### Module
+**Module**
 
 每个Nestjs应用程序都至少有一个@module()类 —— 根模块。根@Module()之所以这样命名，是因为它可以包含任何层次的子@Module()
 
@@ -55,13 +55,13 @@ cd my-nest-project
 
 
 
-### Services
+**Services**
 
 service服务者，负责数据存储和检索。与数据库打交道。
 
 
 
-### Controllers
+**Controllers**
 
 控制器是一个处理HTTP请求的类，负责处理传入的请求和向客户端返回响应。当Nestjs框架接收到请求时，会指向路由去进行操作。
 
@@ -86,7 +86,7 @@ nest g class users/user.entity
 npm install --save @nestjs/typeorm typeorm mysql2
 ```
 
-接下来开始编码
+### 编码
 
 - 打开user.entity.ts输入如下
 
@@ -239,6 +239,7 @@ import { join } from 'path';
 })
 export class AppModule {}
 ```
+### 运行
 
 在vscode中打开终端并运行
 
@@ -255,6 +256,7 @@ npm run start
 原因是没有打开数据库，这个小项目使用的是mysql，运行项目前需要先启动mysql。
 
 
+---
 
 项目实践github地址[nest-todolist](https://github.com/oneMoreTime1357/nest-todolist)
 

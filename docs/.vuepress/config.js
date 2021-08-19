@@ -11,21 +11,25 @@ module.exports = {
       { text: '关于', link: '/about/' },
       { text: 'Github', link: 'https://github.com/oneMoreTime1357', target:'_blank' },
     ],
-    sidebar: { // 侧边栏设置
-      // {
-      //   title: 'Nest Start', // 分组1
-      //   path: '/nest/',
-      //   // sidebarDepth: 2,
-      //   collapsable: false,
-      //   children: [
-      //     // '/',
-      //     'start'
-      //   ]
-      // }
+    sidebar: {// 侧边栏设置
       '/nest/': [
-        '',
-        'start',
-        'log'
+        {
+          title: 'Nest Start', // 分组1
+          // path: '/nest/',
+          // sidebarDepth: 2,
+          collapsable: false,
+          children: [
+            '',
+            'start'
+          ]
+        },
+        {
+          title: 'Log',
+          collapsable: false,
+          children: [
+            'log'
+          ]
+        }
       ],
       '/about/': [
         ''
